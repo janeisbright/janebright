@@ -1,0 +1,54 @@
+---
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
+---
+
+{% include base_path %}
+
+<h2>Astrodynamics and Recoiling Black Holes</h2>
+
+<p>
+  The merger of binary black holes produces gravitational waves that carry energy and momentum. During the final coalescence of the binary, these gravitational waves impart a kick onto the remnant black hole. In the case of supermassive black hole mergers, this is likely to occur in a dense stellar environment. My research investigates the effects of these gravitational wave recoil kicks on the orbital dynamics of the surrounding star cluster though N-body simulations and the development of analytic models.
+</p>
+
+<figure style="float: right; width: 45%; max-width: 400px; margin: 10px 0 20px 20px;">
+  <video width="100%" controls autoplay loop muted playsinline style="border-radius: 5px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1);">
+    <source src="{{ '/images/orbit_movie_trim.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <figcaption style="text-align: center; font-style: italic; font-size: 0.85em; color: #666; margin-top: 5px;">
+    Simulation showing the dynamical evolution of stellar orbits after a black hole recoil event. Blue orbits show stars that are orbiting in the same direction as before the kick (i.e. prograde orbits), and orange shows orbits that have become retrograde. 
+  </figcaption>
+</figure>
+
+<p>
+  The recoil kick imparted onto the remnant black hole can lead to drastic changes in the orbital dynamics of the bound orbiting stars. The recoil kick changes the velocity of the stars relative to the black hole, causing the shapes of their orbits to change. In the case of an initially circular disk, the stellar orbits all become eccentric and apsidally aligned (i.e. all eccentricity vectors point in the same direction). Stars at large
+distances from the black hole can reverse orbital orientation post-kick to become retrograde orbits. In my recent work, I showed that this apsidally-aligned, eccentric stellar disk composed of both prograde and retrograde orbits then experiences inter-orbit torques that serve to maintain the disk’s alignment, slow
+its precession, and drive high orbital eccentricity.
+</p>
+
+<p>
+  The current goals of this work are to:
+</p>
+
+<ul>
+  <li>
+    <strong>Characterize the morphology:</strong> Investigate how the gravitational wave recoil kick alters the shape and structure of the stellar cluster, taking into account the interactions between stellar orbits and different initial conditions. This analysis aims to identify unique features and patterns that serve as hallmarks of a recoil event.
+  </li>
+  <li>
+    <strong>Quantify the tidal disruption event (TDE) rate:</strong> Analyze the rate of TDEs resulting from the disruption of the stellar cluster by the recoil kick. I am developing statistical models to predict the time of the first TDE after the recoil kick and predict the long-term enhancement of the TDE rate that may be observed long after the kick.
+  </li>
+</ul>
+
+
+<h2>Publications</h2>
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</div>
+{% endif %}
+
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+

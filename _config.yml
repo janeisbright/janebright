@@ -8,25 +8,25 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
+site_theme               : "air" # Currently available options are "default", "air"
 title                    : "Jane Bright"
 title_separator          : "-"
 name                     : &name "Jane Bright"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+description              : &description "Jane Brights's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://janeisbright.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+baseurl                  : "/janebright" # the subpath of your site, e.g. "/blog"
+repository               : "janeisbright.github.io/janebright"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "headshot.jpeg"
-  name             : "Jane Bright"
+  avatar           : "headshot.png"
+  name             : "Jane Bright, PhD"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Astronomy and Astrophysics, NSF MPS Ascend Postdoctoral Fellow"
+  bio              : "NSF MPS Ascend Postdoctoral Fellow"
   location         : "Boulder, CO"
   employer         : "University of Colorado"
   uri              : # URL

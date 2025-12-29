@@ -1,0 +1,19 @@
+@article{Paschalidis_2021,doi = {10.3847/2041-8213/abee21},url = {https://doi.org/10.3847%2F2041-8213%2Fabee21},year = 2021,month = {apr},publisher = {American Astronomical Society},volume = {910},number = {2},pages = {L26},author = {Vasileios Paschalidis and Jane Bright and Milton Ruiz and Roman Gold},title = {Minidisk Dynamics in Accreting, Spinning Black Hole Binaries: Simulations in Full General Relativity},journal = {The Astrophysical Journal Letters}}
+@article{Bright_2017,doi = {10.3847/1538-4357/aa911a},url = {https://doi.org/10.3847%2F1538-4357%2Faa911a},year = 2017,month = {nov},publisher = {American Astronomical Society},volume = {850},number = {1},pages = {10},author = {Jane C. Bright and Guillermo Torres},title = {Absolute Dimensions of the F-type Eclipsing Binary V2154 Cygni},journal = {The Astrophysical Journal}}
+@ARTICLE{Bright:2024,
+       author = {{Bright}, Jane C. and {Akiba}, Tatsuya and {Madigan}, Ann-Marie},
+        title = "{Counter-rotation and slow precession in aligned eccentric nuclear discs due to gravitational wave recoil kicks}",
+      journal = {\mnras},
+     keywords = {Astrophysics - Astrophysics of Galaxies},
+         year = 2024,
+        month = oct,
+       volume = {534},
+       number = {1},
+        pages = {L42-L47},
+          doi = {10.1093/mnrasl/slae079},
+archivePrefix = {arXiv},
+       eprint = {2408.13353},
+ primaryClass = {astro-ph.GA},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2024MNRAS.534L..42B},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
