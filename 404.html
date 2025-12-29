@@ -1,0 +1,24 @@
+---
+layout: default
+permalink: /404.html
+title: "Page Not Found"
+---
+
+<script>
+  // 1. Get the current path (e.g., "/HRsim")
+  var path = window.location.pathname;
+  
+  // 2. Convert it to lowercase (e.g., "/hrsim")
+  var lowerPath = path.toLowerCase();
+
+  // 3. If the path has uppercase letters, redirect to the lowercase version
+  if (path !== lowerPath) {
+      window.location.replace(lowerPath);
+  }
+</script>
+
+<div style="text-align: center; margin-top: 50px;">
+  <h1>404 - Page Not Found</h1>
+  <p>I'm sorry, I couldn't find that page.</p>
+  <p><a href="/">Return to Home</a></p>
+</div>
