@@ -49,7 +49,11 @@
 
       {% if post.excerpt %}
   <p class="archive__item-excerpt" itemprop="description" style="margin-top: 10px;">
-    <strong>Abstract:</strong> {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+    {% if post.collection == 'teaching' %}
+         {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+    {% else %}
+        <strong>Abstract:</strong> {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+    {% endif %}
   </p>
 {% endif %}
   </article>

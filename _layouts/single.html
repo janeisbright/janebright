@@ -48,7 +48,7 @@ layout: default
         {{ content }}
 
 
-	  {% if page.excerpt %}
+	  {% if page.excerpt and page.collection != 'teaching' %}
   <h3 style="margin-top: 20px; border-bottom: 1px solid #eee; padding-bottom: 10px;">Abstract</h3>
   <p>{{ page.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
   
