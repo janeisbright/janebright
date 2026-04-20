@@ -17,7 +17,7 @@ While my career is dedicated to the stars, I believe that diverse interests fuel
       To-Shin Do is the counterweight that keeps the rest of my life steady. It teaches me to recognize tension and struggle—physically and mentally—and provides the tools to return to center. If this practice weren't a pillar of my life, I simply wouldn't be able to balance everything else I do.
     </p>
     <p>
-      I am the co-author of <strong>"Ninja Wheel of Power: Unlocking the Energy the Drives Success"</strong> (published Oct 2025). As an astrophysicist, I am driven to understand how the external universe works. As a martial artist and spiritual seeker, I am driven to understand how my <em>internal</em> universe works—mapping the energies that allow us to calm down, focus, or find balance under pressure, and this is the perspective I sought to bring forward in this book.
+      I am the co-author of <strong>"Ninja Wheel of Power: Unlocking the Energy that Drives Success"</strong> (published Oct 2025). As an astrophysicist, I am driven to understand how the external universe works. As a martial artist and spiritual seeker, I am driven to understand how my <em>internal</em> universe works—mapping the energies that allow us to calm down, focus, or find balance under pressure, and this is the perspective I sought to bring forward in this book.
     </p>
     <a href="https://www.amazon.com/Ninja-Wheel-Power-Unlocking-Success/dp/B0FVFD3QRD" class="btn btn--info">View Book</a>
   </div>

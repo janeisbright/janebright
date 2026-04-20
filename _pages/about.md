@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-My name is Jane Bright and I am currently a **National Science Foundation MPS Ascend Postdoctoral Fellow** in astronomy at the University of Colorado, Boulder. I earned my PhD in Astronomy and Astrophysics from the University of Arizona im December, 2024.
+My name is Jane Bright and I am currently a **National Science Foundation MPS Ascend Postdoctoral Fellow** in astronomy at the University of Colorado, Boulder. I earned my PhD in Astronomy and Astrophysics from the University of Arizona in December, 2024.
 
 My research is in dynamical astrophysics. I study the orbital dynamics of stars around merging supermassive black holes using both analytic and N-body computational methods. I am particularly interested in the formation and evolution of eccentric nuclear disks of stars, with applications to the Andromeda galaxy (M31), and implications for enhanced tidal disruption rates in other galaxies.
 
